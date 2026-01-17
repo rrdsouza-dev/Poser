@@ -1,15 +1,10 @@
-from webbrowser import get
+def veri_idade(idade):
+ return idade >= 18
 
+idade = int(input("Qual sua idade?: "))
 
-def primeiro_comit(self):
-    input("Giga um numero ai vey: ")
+if veri_idade(idade):
+    print("Maior de idade")
     
-    regener = '67'
-    while True:
-     if regener == True:
-         get.data
-         print("Pegamos seus dados bb hihihih")
-         
-         
-    
-primeiro_comit()
+else:
+    print("Menor de idade")
